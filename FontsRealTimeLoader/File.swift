@@ -23,9 +23,4 @@ public extension UIFont {
             throw error!.takeUnretainedValue()
         }
     }
-    //        public static func fontsURLs() -> [URL] {
-    //            let bundle = Bundle.sdk
-    //            let fileNames = ["OpenSans-Light", "OpenSans-Regular", "OpenSans-Semibold"]
-    //            return fileNames.map({ bundle.url(forResource: $0, withExtension: "ttf")! })
-    //        }
 }
