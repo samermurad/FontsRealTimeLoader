@@ -1,0 +1,11 @@
+xcuserdata/
+project.xcworkspace/xcuserdata
+*.orig
+*.xccheckout
+project.pbxproj
+contents.xcworkspacedata
+xcuserdata/
+Pods/
+*.trace/
+build/
+.DS_Store
