@@ -8,13 +8,13 @@ Pod::Spec.new do |s|
   s.requires_arc = true
  
   # 2
-  s.version = "0.1.0"
+  s.version = "0.0.2"
  
   # 3
   s.license = { :type => "MIT", :file => "LICENSE" }
  
   # 4 - Replace with your name and e-mail address
-  s.author = { "[Your Name Goes Here]" => "samermurad555@gmail.com" }
+  s.author = { "Samer Murad" => "samermurad555@gmail.com" }
  
   # For example,
   # s.author = { "Joshua Greene" => "jrg.developer@gmail.com" }
@@ -35,12 +35,13 @@ Pod::Spec.new do |s|
  
  
   # 7
-  s.framework = "UIKit"
+  # s.framework = "UIKit"
   # s.dependency 'Alamofire', '~> 2.0'
   # s.dependency 'MBProgressHUD', '~> 0.9.0'
  
   # 8
-  s.source_files = "FontsRealTimeLoader/**/*.{swift}"
+  # s.source_files = "FontsRealTimeLoader/**/*.{swift}"
+  s.source_files = "FontsRealTimeLoader/**/*.{framework,h}"
  
   # 9
   # s.resources = "FontsRealTimeLoader/**/*.{png,jpeg,jpg,storyboard,xib}"
