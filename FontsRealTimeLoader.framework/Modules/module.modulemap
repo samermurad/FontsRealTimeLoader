@@ -1,0 +1,10 @@
+framework module FontsRealTimeLoader {
+  umbrella header "FontsRealTimeLoader.h"
+
+  export *
+  module * { export * }
+}
+
+module FontsRealTimeLoader.Swift {
+    header "FontsRealTimeLoader-Swift.h"
+}
